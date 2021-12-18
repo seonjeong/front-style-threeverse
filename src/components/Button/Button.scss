@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn.btn-default {
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.btn.btn-default.primary-style {
+  background: #1976d2;
+  border-color: #1976d2;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.btn-default.secondary-style {
+  background: #fff;
+  border-color: #1976d2;
+  color: #1976d2;
+
+  cursor: pointer;
+}
